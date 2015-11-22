@@ -1,7 +1,11 @@
 # TidyData
-Original data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Processed data in contained here as "SummaryData.csv" and "TidyDataSet.txt"
-View CodeBook.md for all details on processing and the two datasets here.
-"run_analysis.R" is the R script that performed all data processing
+Please read CodeBook.md for details on processing.
 
-This project created for the Getting and Cleaning Data course project
+Original data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+#Brief Summary
+This project created for the Getting and Cleaning Data course project. All relevant details are availible in "CodeBook.md". Briefly, the original data set was processed to combine test and training sets into a single dataset "SummaryData.csv", where only mean and standard deviation measurements are shown. This data was further summarized in "TidyDataSet.txt" where the average(mean) of said mean and standard devaition measures are grouped by subject and activity.
+
+Processed data in contained here as "SummaryData.csv" and "TidyDataSet.txt"
+
+"run_analysis.R" is the R script that performed all data processing
